@@ -28,7 +28,7 @@ public class SavingsAccount extends Account {
 	}
 	//Override: mostra ao compilador que é uma sobreposição
 	@Override
-	public void withdraw(double amount) {
+	public final void withdraw(double amount) {
 		balance -=amount;
 	}
 	
